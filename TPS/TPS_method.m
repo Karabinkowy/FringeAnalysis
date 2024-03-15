@@ -2,6 +2,7 @@ clc;
 clear;
 close all;
 
+% check if the files are in your working directory and the path is okay
 path_ideal = "TPS ideal\5frame_90degree\";
 file = dir(path_ideal);
 
